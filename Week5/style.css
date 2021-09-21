@@ -1,0 +1,37 @@
+body{
+  font-family: arial;
+  font-size: 2vw;
+
+}
+
+p{
+  color:rgb(100,100,400);
+}
+
+
+h1{
+  border: solid rgb(100,100,100) 1px;
+}
+
+.grey{
+  color: rgb(100,100,100);
+}
+
+.background{
+  background-color: rgb(225,225,225);
+}
+
+span{
+  color: blue;
+  font-weight: bold;
+}
+
+#sit{
+  font-family: cursive;
+}
+
+#two{
+  border: solid 1px;
+  background-color: blue;
+  padding: 50px;
+}
