@@ -1,0 +1,71 @@
+body {
+  background-color: #FCE4D8;
+}
+
+#first h1 {
+  color: #657153;
+  font-weight: 800;
+}
+
+#first h2 {
+  color: #657153;
+}
+
+#firstp {
+  color: #4D2F19;
+  font-style: italic;
+}
+
+#secondp {
+  color: #4D2F19;
+  font-weight: bold;
+}
+
+#second h1 {
+  color: #657153;
+}
+
+#second p {
+  color: #4D2F19;
+}
+
+#three {
+  font-weight: bold;
+}
+
+#second ol {
+  color: #AF441D;
+  margin: 20px;
+}
+
+#whole {
+  font-weight: bold;
+}
+
+#passions {
+  font-style: italic;
+}
+
+#retain {
+  font-style: italic;
+}
+
+#utilize {
+  font-weight: bold;
+}
+
+#third h1 {
+  color: #4D2F19;
+}
+
+#third p {
+  color: #657153;
+}
+
+#lovely {
+  font-style: italic;
+}
+
+#NJ {
+  font-weight: bold;
+}
