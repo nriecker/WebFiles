@@ -1,32 +1,43 @@
 body {
-  background-color: #FCE4D8;
+  background-color: #F7D9D9;
+  font-family: serif;
 }
 
+
 #first h1 {
-  color: #657153;
-  font-weight: 800;
+  color: #5C4033;
+  font-weight: 1,500;
+}
+
+#img1 {
+  width: 30vw;
+  padding: 20px 0px;
 }
 
 #first h2 {
-  color: #657153;
+  color: #5C4033;
+  font-weight: 1,500;
 }
 
 #firstp {
-  color: #4D2F19;
+  color: #F25287;
   font-style: italic;
+  font-weight: 550;
+  font-size: 2.5vw;
 }
 
 #secondp {
-  color: #4D2F19;
+  color: #F25287;
   font-weight: bold;
 }
 
 #second h1 {
-  color: #657153;
+  color: #5C4033;
 }
 
 #second p {
-  color: #4D2F19;
+  color: #F25287;
+  font-size: 20px;
 }
 
 #three {
@@ -34,8 +45,14 @@ body {
 }
 
 #second ol {
-  color: #AF441D;
+  color: #F596B0;
+  font-size: 18px;
   margin: 20px;
+  padding-right: 200px;
+}
+
+#img2 {
+  padding: 20px 0px;
 }
 
 #whole {
@@ -55,11 +72,12 @@ body {
 }
 
 #third h1 {
-  color: #4D2F19;
+  color: #5C4033;
 }
 
 #third p {
-  color: #657153;
+  color: #F25287;
+  padding-right: 200px;
 }
 
 #lovely {
@@ -68,4 +86,9 @@ body {
 
 #NJ {
   font-weight: bold;
+}
+
+#img3 {
+  padding: 20px 0px;
+
 }
