@@ -1,78 +1,104 @@
-body{
-  padding: 0px;
-  margin: 0px;
+body {
+  background-color: #FFFFFF;
+  font-family: serif;
 }
 
-p {
-  color: red;
-  font-family: helvetica;
+
+#first h1 {
+  color: #5C4033;
+  font-weight: 1,500;
 }
 
-h1, h2{
-  font-family: "Bebas Neue"
-}
-
-#hero{
-  width:100vw;
-  height: 60vh;
-  overflow: hidden;
-  margin: 0px;
-  padding:0px;
-}
-
-#heroimg{
+#cloudimg {
   width:130vw;
+  height: 20vw;
   position: relative;
-  bottom: 400px;
-  right: 200px;
+  /* bottom: 300px; */
 }
 
-#hero h1{
-  z-index: 1;
-  position: relative;
-  font-size: 5vw;
-  top:30vh;
-  margin:0 0 0 7vw;
+
+#first h2 {
+  color: #5C4033;
+  font-weight: 1,500;
 }
 
-#one,#two,#three{
-  margin-left: 7vw;
-  margin-right: 3vw;
-  margin-top: 7vw;
+#firstp {
+  color: #FFFFFF;
+  font-style: italic;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+#secondp {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#second h1 {
+  color: #5C4033;
+}
+
+#second p {
+  color: #F25287;
+  font-size: 18px;
+}
+
+#three {
+  font-weight: bold;
+}
+
+#second ol {
+  color: #F596B0;
+  font-size: 15px;
+  margin: 20px;
+  padding-right: 200px;
+}
+
+#whole {
+  font-weight: bold;
+}
+
+#passions {
+  font-style: italic;
+}
+
+#retain {
+  font-style: italic;
+}
+
+#utilize {
+  font-weight: bold;
+}
+
+#third h1 {
+  color: #5C4033;
+}
+
+#third p {
+  color: #F25287;
+  padding-right: 200px;
+}
+
+#lovely {
+  font-style: italic;
+}
+
+#NJ {
+  font-weight: bold;
+}
+
+#balloonimg {
+  width:130vw;
+  height: 20vw;
 }
 
 button{
-  background-color: #ebbd34;
-  font-family: "Bebas Neue";
-  font-size: 30px;
+  background-color: #F7D9D9;
+  color: #5C4033;
+  font-family: serif;
+  font-size: 18px;
+  font-weight:200;
   margin: 10px;
   padding: 7px 20px;
   position: relative;
-}
-
-button:active{
-  background-color: blue;
-  color: white;
-}
-
-button:hover{
-  border:solid black 3px;
-}
-
-a:visited{
-  color: lightgrey;
-}
-
-a:link{
-  color: blue;
-}
-
-a:active{
-  color: red;
-}
-
-
-a:hover{
-  font-size: 200%;
-  color: red;
 }

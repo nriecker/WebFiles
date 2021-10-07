@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hello Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="img1">
+    <img src = "../assets/clouds.jpeg" alt="Pink & White Clouds from Google" id="cloudimg"/>
+  </section>
+
+  <section id="buttonfirst">
+    <button id="firstbutton">Click here to begin</button>
+  </section>
+
+  <section id="first">
+    <h1 id="name">My Name:</h1>
+    <p id="firstp">Natalie Ellen Riecker</p>
+    <h2>My Pronouns:</h2>
+    <p id="secondp">SHE, HER, HERS</p>
+  </section>
+
+
+  <section id="second">
+    <h1>My Goals for this Course:</h1>
+    <p>I have <span id="three">3</span> primary goals that I wish to achieve while taking this course. They are as follows:</p>
+
+    <ol>
+      <li><span id="whole">Wholeheartedly</span> attempt to learn about the basics and history of web technologies and prove my learnings through project-based applications.</li>
+      <li>Network with like-minded individuals who share similar <span id="passions">passions</span> and career goals as me.</li>
+      <li><span id="retain">Retain</span> and <span id="utilize">utilize</span> the skills I acquire in meaningful ways. This can be in everyday life, future classes or even in the workplace.
+    </ol>
+
+  </section>
+
+  <section id="third">
+    <h1>Description About Myself:</h1>
+    <p>I'm from a <span id="lovely">lovely</span> town called Randolph, <span id="NJ">New Jersey</span>. I am a senior studying Marketing with a minor in CTD. I love using my creativity and imagination in a way that makes the world more fun! A great example of this is in my <a href="https://nriecker.github.io/WebFiles/Week2/index.html"> encyclopedia page</a>!</p>
+    <p>I look forward to this class and being able to learn more about all of the wonderful capabilities that the web holds. Thanks for taking the time to read about me!</p>
+  </section>
+
+  <section id="buttonlast">
+    <button id="lastbutton">Click here once finished</button>
+  </section>
+
+  <section id="img3">
+    <img src = "../assets/bb.jpeg" alt="Pink Balloons found on Google" id="balloonimg"/>
+  </section>
+
+  <script>
+    console.log("javascript working");
+    document.getElementById("firstbutton").addEventListener("click",button1);
+    document.getElementById("lastbutton").addEventListener("click",button2);
+
+    function button1(){
+      alert("You may now begin reading about me!");
+      document.getElementById("name").style.color = "Lightpink";
+    }
+
+    function button2(){
+      alert("Congratulations, you made it to the end!");
+    }
+
+  </script>
+
+</body>
+
+</html>
