@@ -39,7 +39,7 @@ body {
 }
 
 #second p {
-  color: #F25287;
+  color: #FFFFFF;
   font-size: 18px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 #second ol {
-  color: #F596B0;
+  color: #FFFFFF;
   font-size: 15px;
   margin: 20px;
   padding-right: 200px;
@@ -75,8 +75,12 @@ body {
 }
 
 #third p {
-  color: #F25287;
+  color: #FFFFFF;
   padding-right: 200px;
+}
+
+#encyclopedia {
+  color: #FFFFFF;
 }
 
 #lovely {
