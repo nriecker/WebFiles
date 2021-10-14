@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/17596c29da.js" crossorigin="anonymous"></script>
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+
+</head>
+<body>
+  <h1 id="best">"Best Of: The Breakfast Club"</h1>
+  <section id="quote">
+    <h2 id="qtext">Click the button to generate a quote from The Breakfast Club!</h2>
+    <button id="qbutton">New Quote</button>
+  </section>
+  <section id="flex">
+    <div id="one" class="flexitem">
+      <img src="assets/bc.jpg" class="social">
+    </div>
+  </section>
+
+<script>
+  const quotes = ["You ought to spend a little more time trying to make something of yourself and a little less time trying to impress people.", "We’re all pretty bizarre. Some of us are just better at hiding it; that’s all.", "You see us as you want to see us—in the simplest terms, in the most convenient definitions. But what we found out is that each one of us is a brain...and an athlete...and a basket case...a princess...and a criminal. Does that answer your question?","Screws fall out all the time, the world is an imperfect place.","Life has got all those twists and turns. You’ve got to hold on tight and off you go."];
+  quoteCount = 0;
+  document.getElementById('qbutton').addEventListener("click", newQuote);
+  function newQuote(){
+    document.getElementById("qtext").innerHTML = quotes[quoteCount];
+    // alert("clicked");
+    if(quoteCount>=(quotes.length-1)){
+      quoteCount = 0;
+    }else{
+      quoteCount +=1;
+    }
+  }
+
+</script>
+
+</body>
+
+</html>
