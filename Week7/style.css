@@ -1,24 +1,28 @@
 #best{
-  
+  color: #502f2a;
+  text-align: center;
+  margin-top: 25px;
+  font-style: italic;
+  font-family: "Oswald";
 }
 
 #quote{
-  background-color: #f54e42;
+  background-color: #e8ddeb;
   padding: 20px 40px 60px 40px;
-  margin: 30vh 20vw;
+  margin: 10vh 20vw;
   font-family: "Oswald";
   font-weight: 600;
   filter: drop-shadow(3px 3px 4px rgba(0,0,0,.5));
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 #qtext{
-  color: #1f110f;
-  margin-bottom: 20px;
+  color: #2e2226;
+  text-align: center;
 }
 
 body{
-  background-color: #f0f5f7;
+  background-color: #eab6b0;
 }
 
 button{
@@ -28,36 +32,24 @@ button{
   margin-top: 0px;
   margin-bottom: 30px;
   font-size: 20px;
-  background-color:  #1f110f;
-  color: #fff;
-  border-radius: 10px;
+  background-color:  #294681;
+  color: #e4dfdb;
+  border-radius: 20px;
   border: none;
 }
 
 button:hover{
-  border: 2px white solid;
+  border: 3px #ab8c8f solid;
 }
 
 button:active{
   background-color: #665c5b;
 }
 
-#flex{
-  display: flex;
-  width: auto;
-  margin: 10px 20vw;
-}
-
-.flexitem{
-  flex-grow: 1;
-  margin-left: 10px;
-  /* border: 1px solid black; */
-}
-
-.social{
-  width: 30vw;
+.cover{
+  width: 18vw;
   padding-bottom: 40px;
   min-width: 10px;
   margin:auto;
-  display:block
+  display:block;
 }
