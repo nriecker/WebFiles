@@ -1,0 +1,17 @@
+#flex{
+  display: flex;
+  width: auto;
+  margin: 10px 20vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.days{
+    width: 2vw;
+    min-width: 10px;
+    margin:auto;
+    display:block
+  }
