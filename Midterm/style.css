@@ -1,7 +1,26 @@
+body{
+  background-color: #F0E8F5;
+}
+
+#hometext{
+  font-family: "Oswald";
+  font-size: 60px;
+  text-align: center;
+  color: #C67DA9;
+}
+
+#selectday{
+  font-family: "Oswald";
+  font-size: 30px;
+  text-align: center;
+  color: #C67DA9;
+}
+
 #flex{
   display: flex;
   width: auto;
-  margin: 10px 20vw;
+  padding: 30px 40px 10px 40px;
+  margin: 5vh 0vw;
 }
 
 .flexitem{
@@ -10,7 +29,63 @@
 }
 
 .days{
-    min-width: 10px;
+    min-width: 50px;
     margin:auto;
     display:block
   }
+
+  button{
+    background-color: #E6F3F9;
+    border-color: #142650;
+    border-width: 2px;
+    border-radius: 20px;
+    font-family: "Oswald";
+    font-size: 25px;
+    color: #00523F;
+    padding: 10px 50px;
+  }
+
+#des{
+  width: auto;
+  padding: 30px 40px 10px 40px;
+  margin: 5vh 0vw;
+  margin-left: 10px;
+}
+
+ul{
+  font-family: "Oswald";
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  color: #3B846E;
+  margin: 70px;
+}
+
+#mon{
+  color: #00523F;
+  font-size: 30px;
+}
+
+#tues{
+  color: #00523F;
+}
+
+#wed{
+  color: #00523F;
+}
+
+#thurs{
+  color: #00523F;
+}
+
+#mon{
+  color: #00523F;
+}
+
+#mon{
+  color: #00523F;
+}
+
+#mon{
+  color: #00523F;
+}
