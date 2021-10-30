@@ -43,13 +43,10 @@ body{
     font-size: 25px;
     color: #00523F;
     padding: 10px 50px;
-  }
+}
 
-#des{
-  width: auto;
-  padding: 30px 40px 10px 40px;
-  margin: 5vh 0vw;
-  margin-left: 10px;
+button:hover{
+  border: 4px #142650 solid;
 }
 
 ul{
@@ -58,34 +55,10 @@ ul{
   text-align: center;
   font-size: 25px;
   color: #3B846E;
-  margin: 70px;
+  margin: 40px;
 }
 
-#mon{
-  color: #00523F;
+#mon, #tues, #wed, #thurs, #fri, #sat, #sun{
+  color: #C67DA9;
   font-size: 30px;
-}
-
-#tues{
-  color: #00523F;
-}
-
-#wed{
-  color: #00523F;
-}
-
-#thurs{
-  color: #00523F;
-}
-
-#mon{
-  color: #00523F;
-}
-
-#mon{
-  color: #00523F;
-}
-
-#mon{
-  color: #00523F;
 }

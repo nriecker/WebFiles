@@ -1,0 +1,60 @@
+#GrindDay{
+  font-family: "Oswald";
+  font-size: 60px;
+  text-align: center;
+  color: #C67DA9;
+}
+
+#GDdes{
+  font-family: "Oswald";
+  font-size: 25px;
+  text-align: center;
+  color: #C67DA9;
+  margin-top: -3vh;
+  margin-bottom: 5vh;
+}
+
+body{
+  background-color: #F0E8F5;
+}
+
+#activities{
+  font-family: "Oswald";
+  display:flex;
+  text-align: center;
+  color: #00523F;
+  font-size: 17px;
+}
+
+.things{
+  flex-grow: 1;
+  width: auto;
+}
+
+img{
+  max-width: 20vw;
+  height: 40vh;
+  width:20vw;
+  object-fit: cover;
+  padding: 4vh;
+  margin-top: -3vh;
+}
+
+button{
+  background-color: #E6F3F9;
+  border-color: #142650;
+  border-width: 2px;
+  border-radius: 20px;
+  font-family: "Oswald";
+  font-size: 20px;
+  color: #00523F;
+  padding: 10px 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3vh;
+  display: block;
+}
+
+button:hover{
+  border: 4px #142650 solid;
+}
