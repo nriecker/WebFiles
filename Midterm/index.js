@@ -1,3 +1,4 @@
+
 document.getElementById("monb").onclick = function () {
         location.href = "Monday/index.html";
     }
