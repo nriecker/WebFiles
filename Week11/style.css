@@ -1,0 +1,231 @@
+@media screen and (min-width: 700px){
+  nav{
+    display:flex;
+    width: 50vw;
+    justify-content: right;
+    margin: 20px auto 20px calc(100% - 55vw);
+  }
+
+  nav a{
+    font-family: Oswald;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 30px;
+    text-decoration-style: dotted;
+    color: #5C4033;
+  }
+
+  #pictures{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  #pictures img{
+      flex-grow: 1;
+      max-width: 20vw;
+      height: 40vh;
+      width:20vw;
+      object-fit: cover;
+    }
+
+  #intro h1 {
+    z-index:1;
+    position: absolute;
+    margin-top:200px;
+    margin-right: 100px;
+    color: #F25287;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  #intro p {
+    z-index:1;
+    position: absolute;
+    margin-top:290px;
+    font-size: 35px;
+    margin-right: 100px;
+    color: #F25287;
+    font-weight: bold;
+    margin-left: 40px;
+  }
+
+  #intro img{
+    width: 100%;
+    height:450px;
+    object-fit: cover;
+  }
+
+  #goals ol {
+    color: #F596B0;
+    font-size: 30px;
+    margin: 20px;
+    padding-right: 200px;
+  }
+
+  #description h1 {
+    color: #5C4033;
+    margin-left: 20px;
+    font-size: 35px;
+  }
+
+  #description p {
+    color: #F25287;
+    padding-right: 200px;
+    font-size: 30px;
+    margin-left: 40px;
+  }
+
+  #goals h1 {
+    color: #5C4033;
+    font-size: 35px;
+    margin-left: 20px;
+  }
+
+  #goals p {
+    color: #F25287;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 701px){
+  nav{
+    display:flex;
+    width: 50vw;
+    justify-content: right;
+    margin: 20px auto 20px calc(100% - 55vw);
+  }
+
+  nav a{
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 15px;
+    text-decoration-style: dotted;
+    color: #5C4033;
+  }
+
+  #pictures{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  #pictures img{
+      display: flex;
+      flex-grow: 1;
+      max-width: 70vw;
+      height: 40vh;
+      width:70vw;
+      object-fit: cover;
+    }
+
+  #intro h1 {
+    z-index:1;
+    position: absolute;
+    margin-top:100px;
+    margin-right: 100px;
+    color: #F25287;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 5px;
+  }
+
+  #intro p {
+    z-index:1;
+    position: absolute;
+    margin-top:150px;
+    font-size: 18px;
+    margin-right: 100px;
+    color: #F25287;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+
+  #intro img{
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+  }
+
+  #goals ol {
+    color: #F596B0;
+    font-size: 18px;
+    margin: 5px;
+    padding-right: 0px;
+  }
+
+  #description p {
+    color: #F25287;
+    margin: 20px;
+    font-size: 18px;
+  }
+
+  #description h1 {
+    color: #5C4033;
+    margin-left: 20px;
+    font-size: 22px;
+  }
+
+  #goals h1 {
+    color: #5C4033;
+    font-size: 22px;
+    margin-left: 20px;
+  }
+
+  #goals p {
+    color: #F25287;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+}
+
+
+body {
+  background-color: #F7D9D9;
+  font-family: Oswald;
+}
+
+
+#three {
+  font-weight: bold;
+}
+
+
+#whole {
+  font-weight: bold;
+}
+
+#passions {
+  font-style: italic;
+}
+
+#retain {
+  font-style: italic;
+}
+
+#utilize {
+  font-weight: bold;
+}
+
+
+
+#lovely {
+  font-style: italic;
+}
+
+#NJ {
+  font-weight: bold;
+}
