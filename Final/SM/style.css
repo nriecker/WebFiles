@@ -1,0 +1,62 @@
+body{
+  background-color: #FFFFFF;
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: right;
+  margin: 20px auto 20px calc(100% - 55vw);
+}
+
+nav a{
+  font-family: Oswald;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 100;
+  margin-left: 30px;
+  text-decoration-style: dotted;
+  color: #E2C8B6;
+}
+
+#SO{
+  color: #CB997E;
+}
+
+#SMtext{
+  font-family: "Oswald";
+  font-size: 60px;
+  text-align: center;
+  color: #6B705C;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  margin-top: 10px;
+}
+
+#flex{
+  display: flex;
+  width: auto;
+  margin: 10px 20vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+
+.social{
+  width: 90px;
+  min-width: 10px;
+  margin:auto;
+  display:block;
+}
+
+#one{
+  margin-right: 200px;
+}
+
+#two{
+  margin-left: 200px;
+}

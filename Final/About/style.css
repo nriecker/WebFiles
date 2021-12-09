@@ -1,0 +1,71 @@
+@media screen and (min-width: 700px){
+body{
+  background-color: #FFFFFF;
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: right;
+  margin: 20px auto 20px calc(100% - 55vw);
+}
+
+nav a{
+  font-family: Oswald;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 100;
+  margin-left: 30px;
+  text-decoration-style: dotted;
+  color: #E2C8B6;
+}
+
+#AM{
+  color: #CB997E;
+}
+
+#AboutMeText{
+  font-family: "Oswald";
+  font-size: 60px;
+  text-align: center;
+  color: #6B705C;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#AMintro{
+  font-family: "Oswald";
+  font-size: 25px;
+  text-align: center;
+  color: #A5A58D;
+  margin-bottom: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#pictures{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#pictures img{
+    flex-grow: 1;
+    max-width: 23vw;
+    height: 48vh;
+    width:20vw;
+    object-fit: cover;
+  }
+
+  #about{
+    font-family: "Oswald";
+    font-size: 20px;
+    text-align: center;
+    color: #A5A58D;
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
