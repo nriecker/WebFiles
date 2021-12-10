@@ -13,12 +13,12 @@ document.getElementById("picbutton").addEventListener("click", buttonClicked);
     }
   }
 
-  document.getElementById("picbutton2").addEventListener("click", buttonClicked);
+  document.getElementById("picbutton2").addEventListener("click", buttonClick);
 
-    const photoArrays = ["assets/pic1.png", "assets/pic2.png" , "assets/pic3.png" , "assets/pic4.png" , "assets/pic5.png", "assets/pic6.png" , "assets/pic7.png" , "assets/pic8.png"];
+    const photoArrays = ["assets/pic9.jpeg", "assets/pic10.jpeg" , "assets/pic11.jpeg" , "assets/pic12.jpeg" , "assets/pic13.jpeg", "assets/pic14.jpeg" , "assets/pic15.jpeg" , "assets/pic16.jpeg"];
       let piccounts = 0;
 
-    function buttonClicked(){
+    function buttonClick(){
       console.log(pics[piccounts]);
       document.getElementById("ropic2").src = photoArrays[piccounts];
       if(piccounts>=7){

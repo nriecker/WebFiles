@@ -1,4 +1,5 @@
-body{
+@media screen and (min-width: 700px){
+  body{
   background-color: #FFF6EF;
 }
 
@@ -100,7 +101,7 @@ nav a{
   padding: 0px;
   width: 400px;
   height: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
@@ -121,4 +122,10 @@ button{
 #picbutton, #picbutton2{
   letter-spacing: 3px;
   word-spacing: 1px;
+}
+}
+
+@media screen and (max-width: 701px){
+
+
 }

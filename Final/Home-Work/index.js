@@ -10,6 +10,7 @@ for(i=0;i<document.getElementsByClassName('code').length;i++){
   document.getElementsByClassName("code")[i].setAttribute("id", title[i]);
 }
 
+
 const image = ["bc.png","midterm.png"];
 
 const titles = ["Breakfast Club Quote Generator", "Self Care Midterm Home Page"];

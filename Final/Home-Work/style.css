@@ -1,4 +1,5 @@
-body{
+@media screen and (min-width: 700px){
+  body{
   background-color: #FFF6EF;
 }
 
@@ -42,6 +43,12 @@ nav a{
   margin-top: 0px;
 }
 
+a{
+  color: #CB997E;
+  text-decoration-color: #CB997E;
+  text-decoration-style: dotted;
+}
+
 #one, #two, #three, #four{
 padding-right: 80px;
 margin-bottom: 30px;
@@ -50,7 +57,6 @@ margin-bottom: 30px;
 #examples, #examples2{
   font-family: "Oswald";
   display:flex;
-  /* text-align: center; */
   color: #CB997E;
   font-size: 17px;
   margin-top: 50px;
@@ -61,17 +67,6 @@ margin-bottom: 30px;
   padding-left: 28px;
   padding-bottom: 80px;
 }
-
-/* #examples2{
-  font-family: "Oswald";
-  display:flex;
-  text-align: center;
-  color: #CB997E;
-  font-size: 17px;
-  margin-top: 50px;
-  margin-left: 32px;
-  margin-bottom: 60px;
-} */
 
 .code, .code2{
   display: flex;
@@ -85,5 +80,101 @@ img{
   height: 40vh;
   width:30vw;
   margin-right: 80px;
-  object-fit: cover;
+  object-fit: contain;
+}
+}
+
+
+@media screen and (max-width: 701px){
+body{
+  background-color: #FFF6EF;
+}
+
+nav{
+  display:flex;
+  width: 35vw;
+  justify-content: center;
+  margin: 20px auto 20px calc(100% - 68vw);
+}
+
+nav a{
+  font-family: Oswald;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  margin-left: 30px;
+  text-decoration-style: dotted;
+  color: #DEBEA8;
+}
+
+#home{
+  color: #CB997E;
+}
+
+#hometext{
+  font-family: "Oswald";
+  font-size: 30px;
+  text-align: center;
+  color: #6B705C;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#check{
+  color: #A5A58D;
+  font-family: "Oswald";
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a{
+  color: #CB997E;
+  text-decoration-color: #CB997E;
+  text-decoration-style: dotted;
+}
+
+#one, #two, #three, #four{
+padding-right: 80px;
+margin-bottom: 20px;
+}
+
+#examples, #examples2{
+  font-family: "Oswald";
+  text-align: center;
+  color: #CB997E;
+  font-size: 10px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+#examples{
+  margin-bottom: -50px;
+}
+
+#examples2{
+  margin-bottom: 40px;
+  padding-bottom: 0px;
+}
+
+.code, .code2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img{
+  flex-grow: 1;
+  height: 20vh;
+  width:200vw;
+  margin-right: 60px;
+  object-fit: contain;
+  object-position: center;
+}
+
 }
