@@ -1,5 +1,5 @@
 body{
-  background-color: #FFFFFF;
+  background-color: #FFF6EF;
 }
 
 nav{
@@ -16,7 +16,7 @@ nav a{
   font-weight: 100;
   margin-left: 30px;
   text-decoration-style: dotted;
-  color: #E2C8B6;
+  color: #DEBEA8;
 }
 
 #SO{
@@ -31,6 +31,16 @@ nav a{
   letter-spacing: 10px;
   word-spacing: 20px;
   margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#click{
+  font-family: "Oswald";
+  font-size: 25px;
+  text-align: center;
+  color: #A5A58D;
+  margin-bottom:20px;
+  margin-top: -20px;
 }
 
 #flex{
@@ -42,12 +52,11 @@ nav a{
 .flexitem{
   flex-grow: 1;
   margin-left: 10px;
-  margin-top: 20px;
-  /* border: 1px solid black; */
+  margin-top: -10px;
 }
 
 .social{
-  width: 90px;
+  width: 70px;
   min-width: 10px;
   margin:auto;
   display:block;
@@ -59,4 +68,57 @@ nav a{
 
 #two{
   margin-left: 200px;
+}
+
+#flex2{
+  display: flex;
+  width: auto;
+}
+
+.flexitem2{
+  flex-grow: 1;
+}
+
+#pics{
+  float:left;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#pics2{
+  float:left;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#ropic, #ropic2{
+  margin-bottom: 1px;
+  padding: 0px;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+}
+
+
+button{
+  background-color: #FFF6EF;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #A5A58D;
+  border-style: dotted;
+  font-family: "Oswald";
+  font-size: 20px;
+  color: #CB997E;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+#picbutton, #picbutton2{
+  letter-spacing: 3px;
+  word-spacing: 1px;
 }

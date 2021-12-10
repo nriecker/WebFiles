@@ -1,6 +1,6 @@
 @media screen and (min-width: 700px){
 body{
-  background-color: #FFFFFF;
+  background-color: #FFF6EF;
 }
 
 nav{
@@ -17,7 +17,7 @@ nav a{
   font-weight: 100;
   margin-left: 30px;
   text-decoration-style: dotted;
-  color: #E2C8B6;
+  color: #DEBEA8;
 }
 
 #AM{
@@ -43,6 +43,7 @@ nav a{
   margin-bottom: 30px;
   padding-left: 150px;
   padding-right: 150px;
+  margin-top: -20px;
 }
 
 #pictures{
@@ -54,18 +55,25 @@ nav a{
 #pictures img{
     flex-grow: 1;
     max-width: 23vw;
-    height: 48vh;
-    width:20vw;
+    height: 32vh;
+    width:25vw;
     object-fit: cover;
   }
 
-  #about{
+#aboutps{
     font-family: "Oswald";
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: #A5A58D;
     margin-bottom: 30px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 0px 200px;
+    margin-top: 40px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+#one, #two, #three, #four{
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }

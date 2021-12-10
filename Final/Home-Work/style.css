@@ -1,5 +1,5 @@
 body{
-  background-color: #FFFFFF;
+  background-color: #FFF6EF;
 }
 
 nav{
@@ -16,7 +16,7 @@ nav a{
   font-weight: 100;
   margin-left: 30px;
   text-decoration-style: dotted;
-  color: #E2C8B6;
+  color: #DEBEA8;
 }
 
 #home{
@@ -31,19 +31,59 @@ nav a{
   letter-spacing: 10px;
   word-spacing: 20px;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
-#pictures{
+#check{
+  color: #A5A58D;
+  font-family: "Oswald";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#one, #two, #three, #four{
+padding-right: 80px;
+margin-bottom: 30px;
+}
+
+#examples, #examples2{
+  font-family: "Oswald";
+  display:flex;
+  /* text-align: center; */
+  color: #CB997E;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-left: 32px;
+}
+
+#examples2{
+  padding-left: 28px;
+  padding-bottom: 80px;
+}
+
+/* #examples2{
+  font-family: "Oswald";
+  display:flex;
+  text-align: center;
+  color: #CB997E;
+  font-size: 17px;
+  margin-top: 50px;
+  margin-left: 32px;
+  margin-bottom: 60px;
+} */
+
+.code, .code2{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
   justify-content: center;
 }
 
-#pictures img{
-    flex-grow: 1;
-    max-width: 20vw;
-    height: 40vh;
-    width:20vw;
-    object-fit: cover;
-  }
+img{
+  flex-grow: 1;
+  max-width: 40vw;
+  height: 40vh;
+  width:30vw;
+  margin-right: 80px;
+  object-fit: cover;
+}

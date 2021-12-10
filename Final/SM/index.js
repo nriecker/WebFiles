@@ -1,60 +1,29 @@
-var howOften = 5; //number often in seconds to rotate
+document.getElementById("picbutton").addEventListener("click", buttonClicked);
 
-var current = 0; //start the counter at 0
+  const photoArray = ["assets/pic1.png", "assets/pic2.png" , "assets/pic3.png" , "assets/pic4.png" , "assets/pic5.png", "assets/pic6.png" , "assets/pic7.png" , "assets/pic8.png"];
+    let piccount = 0;
 
-var ns6 = document.getElementById&&!document.all; //detect netscape 6
-
-
-// place your images, text, etc in the array elements here
-
-var items = new Array();
-
-    items[0]=”<a href=’link.htm’ ><img alt=’image0 (9K)’ src=’ assets/pictures/brynn.jpg’ height=’300′ width=’300′ border=’0′ /></a>”; //a linked image
-
-    items[1]=”<a href=’link.htm’><img alt=’image1 (9K)’ src=’assets/pictures/coco.jpg’ height=’300′ width=’300′ border=’0′ /></a>”; //a linked image
-
-    items[2]=”<a href=’link.htm’><img alt=’image2 (9K)’ src=’assets/pictures/family.jpg’ height=’300′ width=’300′ border=’0′ /></a>”; //a linked image
-
-   items[3]=”<a href=’link.htm’><img alt=’image3 (9K)’ src=’assets/pictures/jack.jpg’ height=’300′ width=’300′ border=’0′ /></a>”; //a linked image
-
-    items[4]=”<a href=’link.htm’><img alt=’image4 (9K)’ src=’assets/pictures/sean.jpg’ height=’300′ width=’300′ border=’0′ /></a>”; //a linked image
-
-    items[5]=”<a href=’link.htm’><img alt=’image5 (18K)’ src=’assets/pictures/winnie.jpg’ height=’300′ width=’300′ border=’0′ /></a>”; //a linked image
-
-function rotater() {
-
-    document.getElementById(“placeholder”).innerHTML = items[current];
-
-    current = (current==items.length-1) ? 0 : current + 1;
-
-    setTimeout(“rotater()”,howOften*1000);
-
-}
-
-
-function rotater() {
-
-    if(document.layers) {
-
-        document.placeholderlayer.document.write(items[current]);
-
-        document.placeholderlayer.document.close();
-
+  function buttonClicked(){
+    console.log(pics[piccount]);
+    document.getElementById("ropic").src = photoArray[piccount];
+    if(piccount>=7){
+      piccount = 0;
+    }else{
+      piccount++;
     }
+  }
 
-    if(ns6)document.getElementById(“placeholderdiv”).innerHTML=items[current]
+  document.getElementById("picbutton2").addEventListener("click", buttonClicked);
 
-        if(document.all)
+    const photoArrays = ["assets/pic1.png", "assets/pic2.png" , "assets/pic3.png" , "assets/pic4.png" , "assets/pic5.png", "assets/pic6.png" , "assets/pic7.png" , "assets/pic8.png"];
+      let piccounts = 0;
 
-            placeholderdiv.innerHTML=items[current];
-
-
-    current = (current==items.length-1) ? 0 : current + 1; //increment or reset
-
-    setTimeout(“rotater()”,howOften*1000);
-
-}
-
-window.onload=rotater;
-
-//–>
+    function buttonClicked(){
+      console.log(pics[piccounts]);
+      document.getElementById("ropic2").src = photoArrays[piccounts];
+      if(piccounts>=7){
+        piccounts = 0;
+      }else{
+        piccounts++;
+      }
+    }
