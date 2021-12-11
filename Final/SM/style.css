@@ -101,7 +101,6 @@ nav a{
   padding: 0px;
   width: 400px;
   height: auto;
-  /* overflow: hidden; */
 }
 
 
@@ -126,6 +125,130 @@ button{
 }
 
 @media screen and (max-width: 701px){
+  body{
+  background-color: #FFF6EF;
+}
 
+nav{
+    display:flex;
+    width: 35vw;
+    justify-content: center;
+    margin: 20px auto 20px calc(100% - 68vw);
+  }
+
+  nav a{
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 25px;
+    text-decoration-style: dotted;
+    color: #DEBEA8;
+  }
+
+#SO{
+  color: #CB997E;
+}
+
+#SMtext{
+  font-family: "Oswald";
+  font-size: 30px;
+  text-align: center;
+  color: #6B705C;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#click{
+  font-family: "Oswald";
+  font-size: 16px;
+  text-align: center;
+  color: #A5A58D;
+  margin-bottom:20px;
+  margin-top: -10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#flex{
+  display: flex;
+  width: auto;
+  margin: 30px 20vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.social{
+  width: 50px;
+  min-width: 10px;
+  margin:auto;
+  display:block;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#one{
+  margin-right: 20px;
+}
+
+#two{
+  margin-left: 0px;
+}
+
+#flex2{
+  width: auto;
+}
+
+.flexitem2{
+  flex-grow: 1;
+}
+
+#pics{
+  float:left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#pics2{
+  float:left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#ropic, #ropic2{
+  margin-bottom: 1px;
+  padding: 0px;
+  width: 280px;
+  height: auto;
+}
+
+
+button{
+  background-color: #FFF6EF;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #A5A58D;
+  border-style: dotted;
+  font-family: "Oswald";
+  font-size: 15px;
+  color: #CB997E;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+#picbutton, #picbutton2{
+  letter-spacing: 3px;
+  word-spacing: 1px;
+}
 
 }

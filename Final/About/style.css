@@ -79,6 +79,86 @@ nav a{
 }
 
 @media screen and (max-width: 701px){
+  body{
+    background-color: #FFF6EF;
+  }
 
+  nav{
+      display:flex;
+      width: 35vw;
+      justify-content: center;
+      margin: 20px auto 20px calc(100% - 68vw);
+    }
+
+    nav a{
+      font-family: Oswald;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 100;
+      margin-left: 25px;
+      text-decoration-style: dotted;
+      color: #DEBEA8;
+    }
+
+  #AM{
+    color: #CB997E;
+  }
+
+  #AboutMeText{
+    font-family: "Oswald";
+    font-size: 30px;
+    text-align: center;
+    color: #6B705C;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  #AMintro{
+    font-family: "Oswald";
+    font-size: 16px;
+    text-align: center;
+    color: #A5A58D;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -10px;
+  }
+
+  #pictures{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  #pictures img{
+    display: flex;
+    flex-grow: 1;
+    height: 40vh;
+    width:80vw;
+    object-fit: cover;
+    margin-left: -20px;
+    margin-right: -50px;
+    }
+
+  #aboutps{
+      font-family: "Oswald";
+      font-size: 18px;
+      text-align: center;
+      color: #A5A58D;
+      margin-bottom: 30px;
+      padding: 0px 20px;
+      margin-top: 10px;
+      font-weight: lighter;
+      font-style: italic;
+    }
+
+  #one, #two, #three, #four{
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
 
 }
